@@ -117,7 +117,7 @@ git clone https://github.com/TejasMedade/E Commerce System
 
 Open MySQL Server
 ```bash
-Create a New Database in SQL: "Online_Shopping_System" 
+Create a New Database in SQL: "E_Commerce" 
 ```
 
 Create a Admin For Your Database
@@ -140,7 +140,7 @@ Admin Id : Min=1000, Max=1010 ; User Id : Enter Your Registered Mobile Number Fo
 Go to the Project Directory
 
 ```bas
-Open the Online_Shopping_System Folder with S.T.S
+Open the E_Commerce Folder with S.T.S
 ```
 
 Go to **src/main/resources > application.properties** & change your username and password (MySQL server username & password)
@@ -157,7 +157,7 @@ To change the **Server Port**
 server.port=8088
 ```
 
-Go to **com.masai package > Online_Shopping_System.java**
+Go to **com.E_commerce package > E-Commerce.java**
 
 ```bash
 Run as Spring Boot App !
@@ -170,7 +170,7 @@ http://localhost:8088/swagger-ui/
 ## ER Diagram
 
 
-![Online Shopping Application(1)](https://user-images.githubusercontent.com/105907169/202779904-80050caf-b679-4b67-9afe-da67296fcb59.png)
+![E_Commerce(1)](https://user-images.githubusercontent.com/105907169/202779904-80050caf-b679-4b67-9afe-da67296fcb59.png)
 
 
 
